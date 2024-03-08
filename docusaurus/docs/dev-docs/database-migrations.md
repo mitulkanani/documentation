@@ -65,6 +65,7 @@ module.exports = {
     // Example: renaming a column
     await knex.schema.table('someTable', table => {
       table.renameColumn('oldName', 'newName');
+sdsdsdsdsd
     });
 
     // Example: updating data
